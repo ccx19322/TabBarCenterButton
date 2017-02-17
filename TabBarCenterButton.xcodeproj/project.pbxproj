@@ -15,6 +15,13 @@
 		7A15A04B1E568B7D002908C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A15A0491E568B7D002908C0 /* LaunchScreen.storyboard */; };
 		7A15A0561E568B7E002908C0 /* TabBarCenterButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A0551E568B7E002908C0 /* TabBarCenterButtonTests.m */; };
 		7A15A0611E568B7E002908C0 /* TabBarCenterButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A0601E568B7E002908C0 /* TabBarCenterButtonUITests.m */; };
+		7A15A0711E568BDC002908C0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A0701E568BDC002908C0 /* MainViewController.m */; };
+		7A15A0751E568C43002908C0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A0741E568C43002908C0 /* FirstViewController.m */; };
+		7A15A0781E568C4F002908C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A0771E568C4F002908C0 /* SecondViewController.m */; };
+		7A15A07B1E568C59002908C0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A07A1E568C59002908C0 /* ThirdViewController.m */; };
+		7A15A07E1E569EC0002908C0 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A07D1E569EC0002908C0 /* FourthViewController.m */; };
+		7A15A0811E569ECC002908C0 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A0801E569ECC002908C0 /* FifthViewController.m */; };
+		7A15A0841E56ADD6002908C0 /* HiddenTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15A0831E56ADD6002908C0 /* HiddenTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		7A15A05C1E568B7E002908C0 /* TabBarCenterButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarCenterButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15A0601E568B7E002908C0 /* TabBarCenterButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarCenterButtonUITests.m; sourceTree = "<group>"; };
 		7A15A0621E568B7E002908C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A15A06F1E568BDC002908C0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7A15A0701E568BDC002908C0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7A15A0731E568C43002908C0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7A15A0741E568C43002908C0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7A15A0761E568C4F002908C0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7A15A0771E568C4F002908C0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7A15A0791E568C59002908C0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7A15A07A1E568C59002908C0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7A15A07C1E569EC0002908C0 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		7A15A07D1E569EC0002908C0 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		7A15A07F1E569ECC002908C0 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		7A15A0801E569ECC002908C0 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		7A15A0821E56ADD6002908C0 /* HiddenTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenTabBar.h; sourceTree = "<group>"; };
+		7A15A0831E56ADD6002908C0 /* HiddenTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +122,10 @@
 		7A15A03A1E568B7D002908C0 /* TabBarCenterButton */ = {
 			isa = PBXGroup;
 			children = (
+				7A15A06E1E568BAF002908C0 /* TabBar */,
 				7A15A03E1E568B7D002908C0 /* AppDelegate.h */,
 				7A15A03F1E568B7D002908C0 /* AppDelegate.m */,
+				7A15A0721E568C22002908C0 /* Controller */,
 				7A15A0411E568B7D002908C0 /* ViewController.h */,
 				7A15A0421E568B7D002908C0 /* ViewController.m */,
 				7A15A0441E568B7D002908C0 /* Main.storyboard */,
@@ -138,6 +161,34 @@
 				7A15A0621E568B7E002908C0 /* Info.plist */,
 			);
 			path = TabBarCenterButtonUITests;
+			sourceTree = "<group>";
+		};
+		7A15A06E1E568BAF002908C0 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7A15A06F1E568BDC002908C0 /* MainViewController.h */,
+				7A15A0701E568BDC002908C0 /* MainViewController.m */,
+				7A15A0821E56ADD6002908C0 /* HiddenTabBar.h */,
+				7A15A0831E56ADD6002908C0 /* HiddenTabBar.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7A15A0721E568C22002908C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A15A0731E568C43002908C0 /* FirstViewController.h */,
+				7A15A0741E568C43002908C0 /* FirstViewController.m */,
+				7A15A0761E568C4F002908C0 /* SecondViewController.h */,
+				7A15A0771E568C4F002908C0 /* SecondViewController.m */,
+				7A15A0791E568C59002908C0 /* ThirdViewController.h */,
+				7A15A07A1E568C59002908C0 /* ThirdViewController.m */,
+				7A15A07C1E569EC0002908C0 /* FourthViewController.h */,
+				7A15A07D1E569EC0002908C0 /* FourthViewController.m */,
+				7A15A07F1E569ECC002908C0 /* FifthViewController.h */,
+				7A15A0801E569ECC002908C0 /* FifthViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +324,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A15A0811E569ECC002908C0 /* FifthViewController.m in Sources */,
+				7A15A07E1E569EC0002908C0 /* FourthViewController.m in Sources */,
+				7A15A0781E568C4F002908C0 /* SecondViewController.m in Sources */,
+				7A15A0841E56ADD6002908C0 /* HiddenTabBar.m in Sources */,
 				7A15A0431E568B7D002908C0 /* ViewController.m in Sources */,
 				7A15A0401E568B7D002908C0 /* AppDelegate.m in Sources */,
+				7A15A0751E568C43002908C0 /* FirstViewController.m in Sources */,
 				7A15A03D1E568B7D002908C0 /* main.m in Sources */,
+				7A15A0711E568BDC002908C0 /* MainViewController.m in Sources */,
+				7A15A07B1E568C59002908C0 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

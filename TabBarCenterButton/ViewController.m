@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HiddenTabBar.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [[HiddenTabBar shareInstance] hiddenTabBarController:YES controller:self];
+    self.tabBarController.tabBar.bounds = CGRectMake(0, 0, 0, 0);
+}
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [[HiddenTabBar shareInstance] hiddenTabBarController:NO controller:self];
+    self.tabBarController.tabBar.frame = CGRectMake(0, CGRectGetHeight(self.view.bounds)-44, CGRectGetWidth(self.view.bounds), 44);
 }
 
 
